@@ -5,7 +5,7 @@ import { useContext } from "react";
 import { GameContext } from "../context/GameContext";
 
 export default function ScoreBoard() {
-    const { state, dispatch } = useContext(GameContext);
+    const { state } = useContext(GameContext);
     
     return <Card className="p-4 text-center">
         <h2 className="text-3xl font-bold">Score Board</h2>
